@@ -1,0 +1,502 @@
+commit ee8d3c5e1dedebfef2e6f084091dd1f08d04be68
+Merge: 9708fb2 af9b2ef
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Fri Apr 10 17:27:25 2020 -0500
+
+    Merge pull request #19 from regro-cf-autotick-bot/10.0.0
+    
+    compiler-rt v10.0.0
+
+commit af9b2efa77303eb767635148e41ab8691c9c2bb1
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Wed Apr 8 15:43:08 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.15, and conda-forge-pinning 2020.04.08
+
+commit 15d243f7a306932362cb274885f047ca7fa1ef8e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 8 10:04:42 2020 -0500
+
+    Update conda_build_config.yaml
+
+commit dfb3850b24a22591a223481e7f4484961bd5e16e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 24 15:32:35 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.1, conda-smithy 3.6.15, and conda-forge-pinning 2020.03.23
+
+commit 0297b928254e0621ef6ef64adee43c5423ff7aeb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 24 15:31:54 2020 +0000
+
+    updated v10.0.0
+
+commit 9708fb2a72603b889d72a108deff4d726e859d65
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 18:15:03 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit f3a183e21ddc0f71d61f66dca84d8eeae404e7c6
+Merge: 8d8e6b7 815d3cb
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Feb 26 11:49:03 2020 -0600
+
+    Merge pull request #18 from isuruf/clang-cl
+    
+    Use clang-cl for building on windows
+
+commit 815d3cb87c1c80a06584af22668b119c4729b9a6
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Feb 26 16:46:55 2020 +0000
+
+    Use clang-cl for building on windows
+
+commit 8d8e6b72d87a9e01e16b3b8a0f3f9ac75fa6b8f7
+Merge: 8680d94 a857d9e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Feb 26 09:45:21 2020 -0600
+
+    Merge pull request #17 from isuruf/win
+    
+    Make compiler-rt_win-64 installable on unix
+
+commit a857d9eb2c6517f1bcfac9ac0118a22fe39932ce
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Feb 26 15:11:59 2020 +0000
+
+    Make compiler-rt_win-64 installable on windows
+
+commit 8680d941ba4d47c39bfdeaf5aa6058afdb5a5794
+Merge: f2b380c bfb4930
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Feb 26 02:36:14 2020 -0600
+
+    Merge pull request #16 from isuruf/deps
+    
+    Fix deps
+
+commit bfb4930d635243a479b0ecf084b1e9d4e437c489
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Feb 26 08:16:46 2020 +0000
+
+    Fix deps
+
+commit f2b380ce43f2a04199b86edc6e913ccede5f219d
+Merge: 9df7501 aee2e5a
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Feb 26 00:34:40 2020 -0600
+
+    Merge pull request #15 from isuruf/win
+    
+    Build windows
+
+commit aee2e5a76833f7f1c6a2d240af5d744fbe0095fb
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Feb 26 06:11:46 2020 +0000
+
+    Add make
+
+commit fa401975064f69acb32ea671b02b5d281671aaa6
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Feb 26 06:11:14 2020 +0000
+
+    Fix paths on win
+
+commit 814bf23277e5690eaadbc9b8334bd24faa9cc232
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Feb 26 05:40:04 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.20
+
+commit 6ae9766f6941511691e7704430f40734df9de1e1
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Feb 26 05:36:29 2020 +0000
+
+    Add aarch64 and ppc64le as well
+
+commit 3a6fa89b54630c8bc5d112690a696f7be88f85e9
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Feb 26 05:17:06 2020 +0000
+
+    Build windows
+
+commit 9df7501f094c03520acc9b43764cca30e515b00c
+Merge: 75b6e9a 8244a0c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Jan 5 03:10:34 2020 +0530
+
+    Merge pull request #13 from chrisburr/patch-1
+    
+    Update to 9.0.1
+
+commit 8244a0cab324be8ff755b74dd9dc4717bdd382fa
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Jan 4 13:17:19 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit a2369d9a94bd5da62a65267c4a73a56a26839c56
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sat Jan 4 13:16:15 2020 +0000
+
+    Update conda_build_config.yaml
+
+commit c00a9644cfea9fff7c7c80352a069a28de359aee
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Jan 4 10:55:29 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit 861d038f7011aa1e3a7905223e0bd59fc885e234
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Sat Jan 4 10:52:18 2020 +0000
+
+    Update conda_build_config.yaml
+
+commit ca1854ae337bb91c61d2fc1460d65b0a812151c9
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 2 07:19:01 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+commit cccbbe1a77e8351deb4e50ee44d8ebd9913864e1
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Thu Jan 2 07:15:54 2020 +0000
+
+    Update to 9.0.1
+
+commit 75b6e9af6c3b199376a39762c97fd6b837c7d854
+Merge: 2c920ea dec34af
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 23 12:35:07 2019 -0600
+
+    Merge pull request #12 from isuruf/split
+    
+    Split package
+
+commit dec34af4c1a6169ac22ee6c42751fdb831b23bfe
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Nov 23 18:23:28 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.20
+
+commit d829daf6e998e20f0ca026fcc7204bc0a53e83b7
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 23 12:22:19 2019 -0600
+
+    Bump build number
+
+commit 6d024b41e9dd06877b38c676f65adfb57454e441
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 23 18:18:04 2019 +0000
+
+    Make linter happy
+
+commit c45aae1b80e9aff6250701c45be8ab0cae16bfb2
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 23 18:16:12 2019 +0000
+
+    Split package
+
+commit 2c920eafbc0cfcc5f551cdd103d7335ef79a81f1
+Merge: a10c545 f76294b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Oct 27 22:13:48 2019 -0500
+
+    Merge pull request #11 from isuruf/test
+    
+    Add test and fix install prefix
+
+commit f76294b2a014a9ae8180c1fa9b782244bea9148c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Oct 27 21:57:42 2019 -0500
+
+    Fix install prefix
+
+commit eb1aacb14262273ab1636caf7e30fd705244232e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Oct 27 21:26:09 2019 -0500
+
+    Add test
+
+commit a10c5454dc19b5d9dd656c2c4647aee7b288ef60
+Merge: f5891d2 44dbbdd
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Sep 22 22:17:57 2019 -0500
+
+    Merge pull request #10 from isuruf/9.0.0
+    
+    9.0.0
+
+commit 44dbbddf21af7e1fc79b76190f7b39238fe7f5eb
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Sep 23 02:52:13 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.8, and conda-forge-pinning 2019.09.08
+
+commit 2f650f3c9c26211791e5333cb7939c793417c92b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Sep 23 02:51:37 2019 +0000
+
+    Update to 9.0.0
+
+commit f5891d21de08775e3ac31b9ac9fafe0376175468
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 19:56:37 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 6c21e4a1ab5f106b0dd41a81d7d1f69c6baf1fe9
+Merge: e56d577 93499bf
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Aug 19 15:18:44 2019 -0500
+
+    Merge pull request #9 from isuruf/8.0.1
+    
+    Update to 8.0.1
+
+commit 93499bff5ff0e212c96cb39096b7879d38d8d0b2
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Aug 19 08:27:58 2019 -0500
+
+    Update to 8.0.1
+
+commit e56d577cb8555aa1bae587c7783c9de57dfef79c
+Merge: 9a88bec 5564ce9
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 24 07:25:05 2019 +0000
+
+    Merge pull request #8 from isuruf/xray
+    
+    Fix xray building
+
+commit 5564ce91ad49db48837ae5c10de0e4da6f3a22a7
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 24 00:51:04 2019 -0500
+
+    Fix xray building
+
+commit 9a88bec2eb4d57e3c338b1333a468b9b8a09b23b
+Merge: 12b81f9 ac90f1f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 24 05:37:06 2019 +0000
+
+    Merge pull request #6 from regro-cf-autotick-bot/8.0.0
+    
+    compiler-rt v8.0.0
+
+commit ac90f1f98fb130e830a6ce6630d4f42569d63038
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Apr 24 05:15:24 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.3, and conda-forge-pinning 2019.04.18
+
+commit 55db3a65bf3cdf91772429385f4b3399069d6d4b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Apr 24 00:14:55 2019 -0500
+
+    skip win
+
+commit 05a15c00620c288858b25671d6509b19bd0a96d6
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Apr 23 23:52:03 2019 -0500
+
+    Turn xray off
+
+commit a5fdec0fc3ab6cc0995a502de59d97544f769522
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Apr 23 23:30:26 2019 -0500
+
+    Add MAP_ANONYMOUS to CXXFLAGS too
+
+commit a3a2c8f431a38bc024b9642b286bd2b2ca127d35
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Apr 23 23:05:02 2019 -0500
+
+    Define MAP_ANONYMOUS=MAP_ANON
+
+commit d7e2c2d91cc04a6470708345c5fbba13c8f7a788
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Apr 23 22:53:51 2019 -0500
+
+    Fix typo
+
+commit c7e3dca6822ace0da0a323c3a6262cd49e8a9458
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Apr 23 22:43:11 2019 -0500
+
+    Set DARWIN_osx_CACHED_SYSROOT
+
+commit abeb825ce1ff6c42db6e4b71905a2651adff1eae
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Apr 23 22:30:37 2019 -0500
+
+    set sysroot
+
+commit 5c81238b077ca2f760b6cf6cfc582e51ebe20afb
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Apr 23 22:18:11 2019 -0500
+
+    make verbose
+
+commit c0d07dba39aa753716b67eef66e818d5a8c41ede
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Apr 23 18:46:21 2019 -0500
+
+    remove application-extension
+
+commit 3eb1a8230e924e343be8cfac391f750aa9c0600f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Apr 23 18:28:35 2019 -0500
+
+    remove ios
+
+commit 6a3c850aa0599899e893c8022e41300fa402d525
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Apr 23 18:24:58 2019 -0500
+
+    Fix typo
+
+commit f637c9d0c26176c846f4eb151b61fe2c3fb81b5c
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 22 02:00:30 2019 -0500
+
+    no code sign
+
+commit ffbee4101ed0f674054919556a4ef2810f73077f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 22 01:41:23 2019 -0500
+
+    Fix typo
+
+commit d35a908de975b59920cb0f39b48918ec73621e51
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 22 01:31:27 2019 -0500
+
+    remove build prefix libcxx
+
+commit 99930497ffd3b5cd50ff89c5ca17cd0f6bb66b39
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 22 01:18:17 2019 -0500
+
+    Try fixing osx
+
+commit 640e72dac17b6e2c40512cdde0ea9bb5d8c00856
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 22 00:58:05 2019 -0500
+
+    Add patch for standalone build
+
+commit a2b4e38d802ce0227ed6aaaa721cd47f8f672689
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 22 00:54:21 2019 -0500
+
+    only x86_64 for osxsim
+
+commit 573fc61b629f1fd0f5f191aee8e89bbbc4c9b008
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 22 00:40:13 2019 -0500
+
+    Build only x86_64 on osx
+
+commit f2d30b76e7c11d8af2b41b26d9bad58a7098efc0
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 22 00:38:55 2019 -0500
+
+    Use cl instead of clang-cl
+
+commit ba4366b3de3a222d2c382745a5decac7633357e2
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 22 00:13:31 2019 -0500
+
+    Fix python path
+
+commit a07e3f79a570559977e2c074ad0b6afd5e425615
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Apr 22 00:13:01 2019 -0500
+
+    backup CONDA_BUILD_SYSROOT
+
+commit 1c3068108f2da1814bdcea2e3e25f1c16c8c1dcd
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Apr 21 23:54:20 2019 -0500
+
+    debug
+
+commit 6ec02d0ca91e636386ae726426c3bfaa4fffaafc
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Apr 21 23:50:48 2019 -0500
+
+    Add libcxx only on osx. Fix description and summary
+
+commit deb85e5b344e0fcb49e166c51224ea74e4b0bc5e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Apr 21 23:42:53 2019 -0500
+
+    Add python
+
+commit 31aa7e397bc8fe16d2b676bc5417847a92dcc765
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Apr 21 23:41:54 2019 -0500
+
+    Fix OSX recipe
+
+commit 65548a9d38985ac34bb04d42a99dac6b70d88db3
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Apr 21 23:25:05 2019 -0500
+
+    Use compilers given
+
+commit 7c70079d46bd22b2f1c6863e1e00d15b81b80d99
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Apr 22 04:10:32 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.3, and conda-forge-pinning 2019.04.18
+
+commit fa999252b29e6f140dd277a2c657c5a8a609691a
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Apr 21 23:08:29 2019 -0500
+
+    Cleanup recipe
+
+commit 27c3e3ea3b05856abed3cf6c408bcfa140a83f3e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 20 22:28:21 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.1, and conda-forge-pinning 2019.03.17
+
+commit 91d88eb396e4d40487c9139edb6f438686a2e453
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 20 22:28:09 2019 +0000
+
+    updated v8.0.0
+
+commit 12b81f997b497a807cf3b8f16385aae5a29c1df5
+Merge: 724b998 f83b591
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Nov 5 19:33:46 2018 -0500
+
+    Merge pull request #3 from regro-cf-autotick-bot/7.0.0
+    
+    compiler-rt v7.0.0
+
+commit f83b591197eadf45189d72590529185a5c555087
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 19 11:10:55 2018 +0000
+
+    updated v7.0.0
+
+commit 724b9982f7e6903a879e3454b6fc82195303e201
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Sep 7 20:01:42 2018 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit fd4d90427bddc3616d2039d4eb8b0211a6d98f92
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Sep 7 20:00:44 2018 +0000
+
+    Initial feedstock commit with conda-smithy 3.1.12.

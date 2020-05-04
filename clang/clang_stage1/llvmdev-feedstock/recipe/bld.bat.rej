@@ -1,0 +1,33 @@
+***************
+*** 5,10 ****
+  
+  REM remove GL flag for now
+  set "CXXFLAGS=-MD"
+  
+  cmake -G "Ninja" ^
+      -DCMAKE_BUILD_TYPE="Release" ^
+--- 5,12 ----
+  
+  REM remove GL flag for now
+  set "CXXFLAGS=-MD"
++ set "CC=cl.exe"
++ set "CXX=cl.exe"
+  
+  cmake -G "Ninja" ^
+      -DCMAKE_BUILD_TYPE="Release" ^
+***************
+*** 23,29 ****
+      -DLLVM_ENABLE_LIBXML2=OFF ^
+      -DLLVM_ENABLE_ZLIB=OFF ^
+      -DLLVM_BUILD_LLVM_C_DYLIB=no ^
+-     -DLLVM_CCACHE_BUILD=yes ^
+      %SRC_DIR%
+  
+  if errorlevel 1 exit 1
+--- 25,30 ----
+      -DLLVM_ENABLE_LIBXML2=OFF ^
+      -DLLVM_ENABLE_ZLIB=OFF ^
+      -DLLVM_BUILD_LLVM_C_DYLIB=no ^
+      %SRC_DIR%
+  
+  if errorlevel 1 exit 1
