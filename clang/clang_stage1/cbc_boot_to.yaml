@@ -1,9 +1,9 @@
 cxx_compiler:
-  - clang_bootstrap  # [osx]
+  - clang  # [osx]
   - gxx              # [linux]
   - vs2017           # [win]
 c_compiler:
-  - clang_bootstrap  # [osx]
+  - clangxx  # [osx]
   - gcc              # [linux]
   - vs2017           # [win]
 vc:

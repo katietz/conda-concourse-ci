@@ -1,7 +1,7 @@
 {% set version = "9.0.1" %}
 {% set sha256 = "00a1ee1f389f81e9979f3a640a01c431b3021de0d42278f6508391a2f0b81c9a" %}
-{% set cxx_compiler_version = "4.0.1" %}
 {% set major_ver = version.split(".")[0] %}
+{% set libcxx_min = "4" %}
 
 package:
   name: llvm-package
@@ -31,9 +31,9 @@ requirements:
     - ninja     # [win]
     - python    >=3
     - make
-    - libcxx >={{cxx_compiler_version}}  # [osx]
+    - libcxx >={{libcxx_min}}  # [osx]
   host:
-    - libcxx >={{cxx_compiler_version}}  # [osx]
+    - libcxx >={{libcxx_min}}  # [osx]
     - zlib
 
 outputs:
@@ -59,7 +59,7 @@ outputs:
       run:
         - {{ pin_subpackage("libllvm" + major_ver, exact=True) }}
         - {{ pin_subpackage("llvm-tools", exact=True) }}
-        - libcxx >={{ cxx_compiler_version }}  # [osx]
+        - libcxx >={{ libcxx_min }}  # [osx]
     test:
       commands:
         - $PREFIX/bin/llvm-config --libs                         # [not win]
@@ -86,10 +86,10 @@ outputs:
         - cmake                    # [not win]
         - python    >=3            # [not win]
       host:
-        - libcxx >={{ cxx_compiler_version }}  # [osx]
+        - libcxx >={{ libcxx_min }}  # [osx]
         - zlib
       run:
-        - libcxx >={{ cxx_compiler_version }}  # [osx]
+        - libcxx >={{ libcxx_min }}  # [osx]
     test:
       commands:
         - test -f $PREFIX/lib/libLLVM-{{ major_ver }}${SHLIB_EXT}  # [unix]

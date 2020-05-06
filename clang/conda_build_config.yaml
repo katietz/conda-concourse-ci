@@ -1,6 +1,8 @@
 pin_run_as_build:
   libboost:
     max_pin: x.x.x
+libcxx_min:
+  - 4.0.1
 noarch_python:
   - python
 apr:

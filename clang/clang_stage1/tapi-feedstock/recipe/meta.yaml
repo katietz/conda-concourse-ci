@@ -1,6 +1,6 @@
 {% set name = "tapi" %}
 {% set version = "1000.10.8" %}
-{% set cxx_compiler_version = "4.0.1" %}
+{% set libcxx_min = "4" %}
 
 package:
   name: {{ name|lower }}
@@ -36,10 +36,10 @@ requirements:
     - cmake
     - ninja
   host:
-    - libcxx >={{cxx_compiler_version}}  # [osx]
-{% if cxx_compiler_version is defined %}
+    - libcxx >={{libcxx_min}}  # [osx]
+{% if libcxx_min is defined %}
   run:
-    - libcxx >={{cxx_compiler_version}}  # [osx]
+    - libcxx >={{libcxx_min}}  # [osx]
 {% endif %}
 
 test:

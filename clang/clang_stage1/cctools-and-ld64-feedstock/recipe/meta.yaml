@@ -1,6 +1,7 @@
 {% set cctools_version = '927.0.2' %}
 {% set ld64_version = '450.3' %}
 {% set native_compiler_subdir = 'linux-64' %}  # [linux]
+{% set libcxx_min = "4" %}
 
 package:
   name: cctools-and-ld64
@@ -56,10 +57,10 @@ outputs:
         - llvmdev
         # - llvm
         - tapi
-        - libcxx  # [osx]
+        - libcxx >={{libcxx_min}}  # [osx]
         - {{ pin_subpackage("ld64", max_pin="x.x") }}
       run:
-        - libcxx  # [osx]
+        - libcxx >={{libcxx_min}}  # [osx]
         - {{ pin_subpackage("ld64", max_pin="x.x") }}
     test:
       commands:
@@ -96,11 +97,11 @@ outputs:
         - llvmdev
         - clangdev
         - tapi
-        - libcxx  # [osx]
+        - libcxx >={{libcxx_min}}  # [osx]
         - libuuid  # [linux]
       run:
         - {{ pin_compatible("tapi") }}
-        - libcxx  # [osx]
+        - libcxx >={{libcxx_min}}  # [osx]
       run_constrained:
         - {{ pin_compatible("clang") }}
     test:
