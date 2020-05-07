@@ -1,5 +1,5 @@
 cxx_compiler:
-  - clangxx  # [osx]
+  - clang_bootstrap  # [osx]
   - gxx              # [linux]
   - vs2017           # [win]
 c_compiler:
